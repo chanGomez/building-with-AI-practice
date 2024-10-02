@@ -1,4 +1,5 @@
 import React from 'react';
+import './Font.css';
 
 function Footer() {
   return (
