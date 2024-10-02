@@ -1,10 +1,19 @@
 import React from 'react'
+import Reviews from './Reviews'
+import AddReview from './AddReview'
+import Footer from './Footer'
+import Page from './Page'
+import Header from './Header'
+import { BrowserRouter as Router } from "react-router-dom";
+
 
 const App = () => {
   return (
-    <div>
-      <h1>Reviews Website Prompt Project</h1>
-    </div>
+    <Router>
+      <Header/>
+        <Page />
+        <Footer />
+    </Router>
   )
 }
 
